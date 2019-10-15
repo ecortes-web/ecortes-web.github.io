@@ -1,3 +1,57 @@
+/* all paragraphs will have a dark grey color with 'Roboto Mono' as the primary font if the system does not have said font it will move on to the next available font provided*/
 p {
+
     color:darkslategray;
+    font-family: 'Roboto Mono', monospace , sans-serif;
+    font-size: 1.4rem;
+    
+
+
+    
   }
+html{
+  font-size: 10px;
+  font-size: 1.4rem;
+
+}  
+
+header, main { padding: 2.5rem; }
+
+main{
+  max-width: 6px;
+}
+
+header{
+ color: #ff0000;  background-color: aqua;
+ border-bottom-style: .3rem solid;
+ border-color:#ff0000;
+ 
+}
+
+li{
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+h1{
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 2rem;
+}
+/* link colors subject to change however keep as is for right now*/
+a:link {
+  color:#ff99ff;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+a:hover {
+   color: #33cc33; background-color: #ebebe0; text-decoration: none; 
+  }
+
+a:active { 
+  color: #ebebe0; background-color: #33cc33; text-decoration: none; 
+}
