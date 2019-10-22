@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
      <head>
+        <meta name="viewport" content="width=device-width" />
       <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
      <meta charset="utf-8">
      <title>Edgar Cortes</title>
@@ -25,7 +26,17 @@
         </main>
   
        <figure>
-        <p> <img src="images/batman.png" alt="Batman's Logo"></p>
+          <img srcset="images/batman-black-and-white-320w.jpg 320w,
+        images/batman-black-and-white-480w.jpg, 480w,
+        images/batman-black-and-white-800w.jpg 800w,
+        images/batman-black-and-white-1200w.jpg 1200w"
+
+        sizes="(max-width: 480px) 280px,
+        (max-width: 800px) 440px,
+        (max-width: 1199px) 760px,
+          1200px"
+
+        src="images/batman-black-and-white" alt="Batman's Logo"></p>
         <figcaption>Image Of The Iconic Batsymbol</figcaption>
        </figure>
 
