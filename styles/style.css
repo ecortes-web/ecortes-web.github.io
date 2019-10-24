@@ -55,3 +55,33 @@ a:hover {
 a:active { 
   color: #ebebe0; background-color: #33cc33; text-decoration: none; 
 }
+
+section#porpoise figure {
+  float: left;
+  padding-right: 2em;
+  }
+
+  section#after-image {
+    clear: left;
+    }
+
+    .intro {
+      position: relative
+      top: 20px;
+      left: 20px;
+      font-size: 2.0em;
+      color: #9d0eb3
+    }
+.bit-columns{
+  column-count:2 ;
+  width: 321px;
+  max-width: 600px;
+  
+}
+
+.bit-columns{
+  column-count: 1;
+  width: unset;
+  
+}
+
