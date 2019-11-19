@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8">
     <title>Edgar Cortes</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body> <h1>Edgar Cortes</h1>
-        <p> <a href="about-me.html">About me</a></p>
-    <p><img src="images/batman.png" alt="batman"></p>
+  <body>
+
+    <header>
+     <h1>Edgar Cortes</h1>
+    </header>
+<main>
+  
+    <div w3-include-html="nav.html">
+    </div>
+</main>
+    
+     <figure>
+       <img srcset="images/batman-black-and-white-320w.jpg 320w,
+        images/batman-black-and-white-480w.jpg, 480w,
+        images/batman-black-and-white-800w.jpg 800w,
+        images/batman-black-and-white-1200w.jpg 1200w"
+
+        sizes="(max-width: 480px) 280px,
+        (max-width: 800px) 440px,
+        (max-width: 1199px) 760px,
+         1200px"
+         src="images/batman-black-and-white" alt="Batman's Logo"></p>
+        <figcaption>Image Of The Iconic Batsymbol</figcaption>
+       </figure>
+
+       <!-- Enable includes -->
+<script src="scripts/includes.js"></script>
+  <script>
+  includeHTML();
+  </script>
   </body>
+
+  <a href="flexbox.html"></a>
+  <a href="grid.html"></a>
+  <a href="columns.html"></a>
+  <a href="website-plan.html"></a>
+  <a href="reports.html"></a>
+  <a href="website-design.html">Website Design</a>
+  
 </html>
