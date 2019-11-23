@@ -185,21 +185,18 @@
           <li>
             Root Directory
             <ul>
-              <li>images directory – contains jpgs and gifs</li>
+              <li>images directory – contains jpgs</li>
               <li>styles directory – contains all of the style sheets</li>
-              <li>docs directory- contains all research done as document files</li>
               <li>
                 index.html – home page for site, site purpose and overview
               </li>
               <li>
-                Gallery.html - Gallery of pandas and information about them based off of research
+                pandas.html - information about the pandas based off of research
               </li>
               <li>
                 facts.html - facts about the pandas that will range from habitat, history and other fun facts
               </li>
-              <li>
-                Contact.html - Contact information such as email will be done here
-              </li>
+              
             <li>Support.html - Info about how to support the pandas with links to various support sites</li>
               </li>
             </ul>
@@ -212,19 +209,15 @@
           <li class="folder">
             Root Directory
             <ul>
-              <li class="folder">images directory – contains jpgs and gifs</li>
+              <li class="folder">images directory – contains jpgs</li>
               <li class="folder">
                 styles directory – contains all of the style sheets
-              </li>
-              <li class="folder">
-                docs directory- contains all research done as document files
-              </li>
               
               <li>
                 index.html – home page for site, site purpose and overview
               </li>
               <li>
-                Pandas.html - Gallery of pandas and information about them based off of research
+                Pandas.html - information about the pandas based off of research
               </li>
               <li>
                 facts.html - facts about the pandas that will range from habitat, history and other fun facts
@@ -270,7 +263,7 @@
         <h2>HTML template</h2>
         <p>
           I will be basing my pages on 
-          <a href="https://github.com/ecortes-web/ecortes-web.github.io/blob/master/example.html">this HTML template</a>.
+          <a href="https://github.com/ecortes-web/ecortes-web.github.io/blob/master/template/website-template.html">this HTML template</a>.
         </p>
         <h2>Wireframe site</h2>
         <p>
@@ -348,34 +341,59 @@
           <dt>Header</dt>
           <dd>
             <p>
-              The header section is 235px tall, positioned along the top of each page with the 
-              logo centered in the frame. The background is White.
+              The header section will be positioned along the top of each page with the 
+              logo floating to the left. The background is black.
             </p>
             <p class="code">
-              header { <br>height: 235px; <br>background-color: #fffff; <br>
+              header {<br>background-color: #fffff; <br>
                 background-image: url("/images/panda.png"); <br>background-repeat: no-repeat; <br>
                 background-position: center; <br>background-size: cover;<br>}</p>
           </dd>
           <dt>Navigation</dt>
           <dd>
             <p>
-                The main navigation is 120px tall, positioned just below the header with a 
-                background color of Grey and White font color.
+                The main navigation will be positioned on the right side of the header
+                header will will float to the right with a highlight and hover
             </p>
             <p class="code">
-              nav { height: 120px; background-color: #a3a3a3; color: #ffffff; }
+            nav{<br> float: right;}</br>
+
+            nav ul{<br> margin: 0;
+              padding: 0%;
+              list-style: none;
+              }</br>
+              
+              nav li {<br>
+                  float: left;
+                  margin-left: 70px;
+                  padding-top: 46px;
+              
+              }</br>
+              
+              nav a{<br>
+                  color: #ffff;
+                  text-transform:uppercase;
+              
+              }</br>
+              
+              nav a:hover{<br>
+                  background-color: #42f554;
+                  border:2px dotted#ffff;
+              }</p>br>
             </p>
           </dd>
           <dt>Images</dt>
           <dd>
             <p>
-              Images will be over white background with a grey border
-              around the container
+              Images will be over white background, centered on the page
+             
             </p>
-            <p class="code">
-              figure { background-color: ffffff; border: 2px solid #333333; }
-            </p>
-            <p class="code">img { padding: 1em; }</p>
+            <p class="code">.pimg{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width:50%;
+            }</p>
           </dd>
           <dt>Links</dt>
           <dd>
@@ -389,7 +407,7 @@
           </dd>
         </dl>
         <h2>Layout sketch</h2>
-        <img src="images/website-example.jpeg" alt="Site layout sketch; email me for details if you can't see it">
+        <img src="images/website-example.jpeg" alt="Site layout sketch is diffrent now, have not updated yet.">
       </section>
     </main>
     <footer>
